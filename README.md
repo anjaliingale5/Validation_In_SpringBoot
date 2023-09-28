@@ -36,7 +36,7 @@ The Services section includes the  set of two service classes that the API Contr
 - `getAllUser` : Retrieves a list of all users in the system.
 - `updateUserInfo` : Updates user information, allowing for changes to name, username, address, and phone number.
 - `removeUsers` : Deletes a user by their user ID.
--...........
+  -...........
 - removeStudentById
 - getStudentById
 ### 3 model :-
@@ -47,17 +47,15 @@ This section contains the `UniversityEvent Management` classes, which represents
 - eventName
 - locationOfEvent
 - Date
-- starttime
-- endtime
+- Starttime
+- Endtime
 - ..........
 - StudentId
 - firstName
 - lastName
 - Age
 - department
-- 
--
 
 ### 4.Repository
 
-In this layer data is stored. for storing data I have used database (H2-console)
+In this layer data is stored. for storing data I have used database (MySQL)
